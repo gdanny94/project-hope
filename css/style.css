@@ -907,6 +907,22 @@ form label {
   vertical-align: middle;
   border-radius: 2%;
 }
+.blocker{
+  height: 400px;
+  background-color: #262626;
+  padding: 50px 10px 50px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blocker img {
+  width: 100%;
+  max-width: 800px;
+  max-height: 400px;
+  object-fit: cover;
+  justify-content: center;
+}
 #gtco-subscribe {
   background: #FF5126;
 }

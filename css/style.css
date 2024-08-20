@@ -874,7 +874,7 @@ form label {
   border-radius: 2%;
 }
 .wrapper{
-  background-color: #000;
+  background-color: #262626;
   padding: 25px 15px;
   display: flex;
   flex-wrap: wrap;
@@ -887,6 +887,25 @@ form label {
 .intro{
   flex: 1;
   color: white;
+}
+
+.blocky {
+  background-color: #262626;
+  padding: 1px 0 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.blocky img {
+  width: 100%;
+  max-width: 800px;
+  max-height: 400px;
+  object-fit: cover;
+  vertical-align: middle;
+  border-radius: 2%;
 }
 #gtco-subscribe {
   background: #FF5126;
@@ -1976,7 +1995,7 @@ form label {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 700px;
+  min-height: 400px;
   position: relative;
 }
 #gtco-hero .flexslider .slides li .overlay {
@@ -1985,7 +2004,7 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(49, 49, 49, 0.489);
 }
 #gtco-hero .flexslider .flex-control-nav {
   bottom: 40px;

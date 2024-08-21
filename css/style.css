@@ -866,6 +866,34 @@ form label {
   color: white
 }
 
+.imgThanks{
+  
+}
+.containerThanks{
+  background-color: #262626;
+  padding: 50px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  max-width: 800px;
+  border-radius: 15px;
+  margin: 100px auto;
+
+
+}
+.cardThanks h1, p{
+  color: white;
+  text-align: center;
+  flex:auto
+}
+
+.containerThanks img {
+  width: 100%;
+  max-width: 500px;
+  vertical-align: auto;
+}
+
 .wrapper img {
   width: 100%;
   max-width: 800px;

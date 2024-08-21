@@ -574,7 +574,7 @@
  <!-- Meet our Pastors -->
 	<div class="wrapper">
 		<div class="profile">
-			<img src="images/ourPastors (800 x 800 px).png" alt="">
+			<img src="images/ourPastors (800 x 800 px).png" alt="marioLaura">
 		</div>
 		
 		<div class="intro">
@@ -603,17 +603,18 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<form class="form-inline">
+					<form action="https://formsubmit.co/esperanzacovenantchurch7@gmail.com" method="POST" class="form-inline">
+						<input type="hidden" name="_next" value="https://esperanzagr.netlify.app/thankyou.html">
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Tu Email">
+								<input type="email" class="form-control" id="email" placeholder="Tu Email" required>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="name" class="sr-only">Name</label>
-								<input type="text" class="form-control" id="name" placeholder="Tu Nombre">
+								<input type="text" class="form-control" id="name" placeholder="Tu Nombre" required>
 							</div>
 						</div>
 
@@ -623,6 +624,8 @@
             			  id="message"
             		 	 placeholder="Escribe tu mensaje..."
              			 rows="3"
+
+						 required
            				 ></textarea>
 						</div>
 						<div class="col-md-4 col-sm-4">

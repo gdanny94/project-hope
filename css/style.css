@@ -655,6 +655,7 @@ form label {
 #gtco-features-2,
 #gtco-products,
 #gtco-subscribe,
+#gtco-pastores,
 #gtco-footer,
 #gtco-faq,
 .gtco-section {
@@ -667,6 +668,7 @@ form label {
   #gtco-features-2,
   #gtco-products,
   #gtco-subscribe,
+  #gtco-pastores,
   #gtco-footer,
   #gtco-faq,
   .gtco-section {
@@ -677,6 +679,7 @@ form label {
 #gtco-features-2.border-bottom,
 #gtco-products.border-bottom,
 #gtco-subscribe.border-bottom,
+#gtco-pastores.border-bottom,
 #gtco-footer.border-bottom,
 #gtco-faq.border-bottom,
 .gtco-section.border-bottom {
@@ -848,6 +851,19 @@ form label {
 }
 #gtco-products .arrow-thumb a:hover, #gtco-products .arrow-thumb a:focus, #gtco-products .arrow-thumb a:active {
   text-decoration: none;
+}
+
+#gtco-pastores {
+  background: rgb(19, 19, 19);
+}
+
+#gtco-pastores h1 {
+  color: white;
+
+}
+
+#gtco-pastores p {
+  color: white
 }
 
 #gtco-subscribe {

@@ -2508,3 +2508,7 @@ input[type="radio"] + label:before {
   margin-left: 5%;
   text-align: left;
 }
+
+.btn-donation {
+  margin: 5px auto;
+}

@@ -2509,6 +2509,9 @@ input[type="radio"] + label:before {
   text-align: left;
 }
 
-.btn-donation {
-  margin: 5px auto;
+.btn-donation a{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 50px;
 }
